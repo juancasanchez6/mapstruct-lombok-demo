@@ -1,5 +1,7 @@
 package com.cazadordigital.mapstructlombokdemo.dto;
 
+import java.math.BigDecimal;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,12 +14,14 @@ import lombok.NoArgsConstructor;
 
 public class GetProduct {
 
-  private long id;
+  private long productId;
 
-  private String name;
+  private String productName;
 
   private String creationDate;
 
-  private GetCategory category;
+  private GetCategory productCategory;
+
+  private String price;
 
 }

@@ -9,8 +9,10 @@ import lombok.*;
 
 public class GetCategory {
 
-  private long id;
+  private long categoryId;
 
-  private String name;
+  private String categoryName;
+
+  private boolean status;
 
 }
